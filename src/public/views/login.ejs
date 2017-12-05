@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DLearn | Login</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="mui-appbar">
+        <table id="headerLinks">
+            <tr>
+                <td class="mui--appbar-height"><a class="mui-btn" href="/">HOME</a></td>
+                <td>
+                    <h1>DLearn</h1>
+                </td>
+                <td class="mui--appbar-height" align="right">
+                    <span>
+                        <a class="mui-btn" href="/signup">Sign Up</a>
+                        <a class="mui-btn" href="/login">Login</a></td>
+                    </span>
+                </td>
+            </tr>
+        </table>
+    </div>    
+    <form enctype="application/json" action="/login" method="POST">
+        <p>
+            <label for="username">Username:</label>
+            <div class="mui-textfield">
+                <input type="text" value="">
+            </div>
+        </p>
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" value="">
+        </p>
+        <button class="mui-btn mui-btn--raised" type="submit">Submit</button>
+    </form>
+    <script src="//cdn.muicss.com/mui-0.9.30/extra/mui-combined.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DLearn | Splash</title>
+    <link rel="stylesheet" href="../index.css">
+</head>
+<body>
+    <div id="modalOverlay" class="hidden">
+        <div id="signUpModal" class="hidden">
+            <form enctype="application/json" action="/signup" method="POST">
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" value="">
+                </p>
+                <p>
+                    <label for="username">Username:</label><br>
+                    <input type="text" value="">
+                </p>
+                <p>
+                    <label for="password">Password:</label><br>
+                    <input type="password" value="">
+                </p>
+                <button id="loginSubmitBtn" type="submit">Submit</button>
+            </form>
+        </div>
+        <div id="loginModal" class="hidden">
+                <form enctype="application/json" action="/login" method="POST">
+                    <p>
+                        <label for="username">Username:</label>
+                        <div class="mui-textfield">
+                            <input type="text" value="">
+                        </div>
+                    </p>
+                    <p>
+                        <label for="password">Password:</label>
+                        <input type="password" value="">
+                    </p>
+                    <button id="loginSubmitBtn" class="mui-btn mui-btn--raised" type="submit">Submit</button>
+                </form>
+        </div>
+    </div>
+    <header>
+        <div class="mui-appbar">
+            <table id="headerLinks">
+                <tr>
+                    <td class="mui--appbar-height"><a class="mui-btn" href="/">HOME</a></td>
+                    <td>
+                        <h1>DLearn</h1>
+                    </td>
+                    <td class="mui--appbar-height" align="right">
+                        <span>
+                            <button id="signUpBtn" class="mui-btn">Sign Up
+                            </button>
+                            <button id="loginBtn" class="mui-btn">Login</button></td>
+                        </span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <img src=""
+    </header>
+    <div id="splash"></div>
+    <script src="../index.js"></script>
+    <script src="//cdn.muicss.com/mui-0.9.30/extra/mui-combined.min.js"></script>    
+</body>
+</html>
