@@ -6,3 +6,10 @@ DLearn aims to change the world through education by creating a platform in whic
 
 ## Our Vision
 We believe that education is the key to solving many of the worlds problems, specifically the uneven distribution of wealth, which is perpetuated for generations because the quality of the instruction that a student recieves is relative to their location and their ability to afford a superior education. The BLS (Bureau of Labor Statistics (US)) [report](https://www.bls.gov/cps/cpsaat07.pdf) on employent status by level of education.
+
+## Getting Started
+```git clone ```
+```cd DLearn```
+```npm install```
+
+## Contributing
