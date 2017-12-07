@@ -4,7 +4,7 @@ const signUpSubmitBtn = document.getElementById('signUpSubmitBtn');
 const loginSubmitBtn = document.getElementById('loginSubmitBtn');
 const loginModal = document.getElementById('loginModal');
 const modalOverlay = document.getElementById('modalOverlay');
-const loginBtn = document.getElementById('loginBtn')
+const loginBtn = document.getElementById('loginBtn');
 
 const openSignupModal = () => {
     if (modalOverlay.classList.contains('hidden')) {
@@ -35,7 +35,16 @@ const closeModal = () => {
         signUpModal.classList.add('hidden');
         modalOverlay.classList.add('hidden')
     }
-}
+};
+
+const submitAddUser = () => {
+    let { email, username, password } = req.body
+};
+
+const submitLoginInfo = () => {
+    
+};
+
 
 signUpBtn.addEventListener('click', openSignupModal);
 loginBtn.addEventListener('click', openLoginModal);
