@@ -29,6 +29,10 @@ body {
     justify-content: space-between
 }
 
+.mui-container-fluid {
+    margin-top: 20%
+}
+
 #modalOverlay {
     position: fixed;
     text-align: center;
@@ -63,12 +67,12 @@ body {
     display: none
 }
 
-#headerImg {
-    width: 100%
-}
-
-#about-dlearn {
-    margin-top: 25%
+#dlearn-banner {
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%
 }
 
 .text-box {
